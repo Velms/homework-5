@@ -775,6 +775,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 
 .model-close-btn-icon{
-  fill: currentColor
+  fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
