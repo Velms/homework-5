@@ -427,7 +427,7 @@ height: 88px;
 border: 1px solid var(--clients-icon-color); 
 border-radius: 4px; 
 color: #8e8f99;
-border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: color var(--animation), border var(--animation);
 
 
 }
@@ -751,6 +751,8 @@ border-radius: 4px;
 position: absolute;
 top: 24px;
 right: 24px;
+width:8px;
+height:8px;
 display: flex;
 justify-content: center;
 align-items: center;
