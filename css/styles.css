@@ -747,7 +747,6 @@ border-radius: 4px;
 }
 
 .modal-close-btn {
-
 position: absolute;
 top: 24px;
 right: 24px;
@@ -762,7 +761,7 @@ background-color: #E7E9FC;
 border: 1px solid rgba(0, 0, 0, 0.1);
 cursor: pointer;
 fill: #2E2F42;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }  
 
 .modal-close-btn:hover,
