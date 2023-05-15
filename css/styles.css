@@ -252,8 +252,7 @@ border-radius: 4px;
 
 .btn:hover,
 .btn:focus {
-  background-color: #404bbf;
-  border: none;
+background-color: var(--ocean); 
 }
 /*  ////////////// --- -- INDEX -- SECTION 2 ---//////////////////  */
 
