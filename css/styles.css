@@ -725,7 +725,6 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 opacity:0;
 visibility:hidden;
 pointer-events: none;
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 .backdrop .is-hidden .modal {
@@ -771,5 +770,4 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   fill: var(--ocean);
   border: var(--none);
   fill: var(--base-wait-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
