@@ -433,8 +433,8 @@ transition: color var(--animation), border var(--animation);
 
 .client-link:hover,
 .client-link:focus {
-border-color: 1px solid var(--ocean);
-color: var(--ocean);
+  color: var(--ocean);
+  border-color: var(--ocean);
 
 }
 
